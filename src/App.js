@@ -44,6 +44,7 @@ function App() {
           <div className="one-half column">
             <Formulario crearCita={crearCita} />
           </div>
+
           <div className="one-half column">
             <h2>{titulo}</h2>
             {citas.map((cita) => (
